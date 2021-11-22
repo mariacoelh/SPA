@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SPA</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="shadow">
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <div class="page active" id="Base64">
+                    <h1 class="text">Base64</h1>
+                    <button class="botao"><a href="#" data-target="Base64" class="tipo">Base64</a></button>
+                    <button class="botao"><a href="#" data-target="UpperCase" class="tipo">Upper Case</a></button>
+                    <button class="botao"><a href="#" data-target="CapitalCase" class="tipo">Capital Case</a></button>
+                    <button class="botao"><a href="#" data-target="LowerCase" class="tipo">Lower Case</a></button>
+                    <button class="botao"><a href="#" data-target="ProperCase" class="tipo">Proper Case</a></button><br>
+                    <div class="pages-navbar">
+                        <input placeholder="Adicione uma string." id="base64" type="text"></input>
+                        <button class="button" onclick="base64()">Codificar</button>
+                    </div>
+            </ul>
+        </nav>
+    </header>
+    </div>
+
+    <div class="page" id="UpperCase">
+        <h1 class="text">Upper Case</h1>
+        <button class="botao"><a href="#" data-target="Base64" class="tipo">Base64</a></button>
+        <button class="botao"><a href="#" data-target="UpperCase" class="tipo">Upper Case</a></button>
+        <button class="botao"><a href="#" data-target="LowerCase" class="tipo">Lower Case</a></button>
+        <button class="botao"><a href="#" data-target="CapitalCase" class="tipo">Capital Case</a></button>
+        <button class="botao"><a href="#" data-target="ProperCase" class="tipo">Proper Case</a></button><br>
+        <input placeholder="Adicione uma string." id="upperCase" type="text"></input>
+        <button class="button" onclick="upperCase()">Codificar</button>
+    </div>
+
+    <div class="page" id="CapitalCase">
+        <h1 class="text">Capital Case</h1>
+        <button class="botao"><a href="#" data-target="Base64" class="tipo">Base64</a></button>
+        <button class="botao"><a href="#" data-target="UpperCase" class="tipo">Upper Case</a></button>
+        <button class="botao"><a href="#" data-target="LowerCase" class="tipo">Lower Case</a></button>
+        <button class="botao"><a href="#" data-target="CapitalCase" class="tipo">Capital Case</a></button>
+        <button class="botao"><a href="#" data-target="ProperCase" class="tipo">Proper Case</a></button><br>
+        <input placeholder="Adicione uma string." id="capitalCase" type="text"></input>
+        <button class="button" onclick="capitalCase()">Codificar</button>
+    </div>
+
+    <div class="page" id="LowerCase">
+        <h1 class="text">Lower Case</h1>
+        <button class="botao"><a href="#" data-target="Base64" class="tipo">Base64</a></button>
+        <button class="botao"><a href="#" data-target="UpperCase" class="tipo">Upper Case</a></button>
+        <button class="botao"><a href="#" data-target="LowerCase" class="tipo">Lower Case</a></button>
+        <button class="botao"><a href="#" data-target="CapitalCase" class="tipo">Capital Case</a></button>
+        <button class="botao"><a href="#" data-target="ProperCase" class="tipo">Proper Case</a></button> <br>
+        <input placeholder="Adicione uma string." id="lowerCase" type="text"></input>
+        <button class="button" onclick="lowerCase()">Codificar</button>
+    </div>
+
+    <div class="page" id="ProperCase">
+        <h1 class="text">Proper Case</h1>
+        <button class="botao"><a href="#" data-target="Base64" class="tipo">Base64</a></button>
+        <button class="botao"><a href="#" data-target="UpperCase" class="tipo">Upper Case</a></button>
+        <button class="botao"><a href="#" data-target="LowerCase" class="tipo">Lower Case</a></button>
+        <button class="botao"><a href="#" data-target="CapitalCase" class="tipo">Capital Case</a></button>
+        <button class="botao"><a href="#" data-target="ProperCase" class="tipo">Proper Case</a></button><br>
+        <input placeholder="Adicione uma string." id="properCase" type="text"></input>
+        <button class="button" onclick="properCase()">Codificar</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
